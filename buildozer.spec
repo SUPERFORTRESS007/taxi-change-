@@ -1,5 +1,6 @@
 [app]
 title = Taxi Change
+source.dir = .
 package.name = taxichange
 package.domain = org.taxi
 source.include_exts = py,png,jpg,kv,atlas
@@ -14,3 +15,4 @@ android.permissions = INTERNET
 [buildozer]
 log_level = 2
 warn_on_root = 1
+icon.filename = %(source.dir)s/icon.png
